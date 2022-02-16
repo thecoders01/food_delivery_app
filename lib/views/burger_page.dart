@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/constants/style.dart';
 import 'package:food_app/widget/Standard_button.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -40,14 +39,18 @@ class _Burger_pageState extends State<Burger_page> {
               ),
             ),
              Container(
+               
                               height: MediaQuery.of(context).size.height/2,
                                 decoration: BoxDecoration(
                        
-                    
-                      
+                  
+                          image: DecorationImage(
+              image: AssetImage("assets/burger_eclate.png"),
+              fit: BoxFit.cover,
+            ),
                    
                         ),
-                              child: Center(child: Image.asset("assets/burger_eclate.png",width: 910,height: MediaQuery.of(context).size.height/2,))
+                          
                               ),
                               burgername(),
                               Row(

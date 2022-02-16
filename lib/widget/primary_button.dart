@@ -17,7 +17,7 @@ class PrimaryButton extends StatelessWidget {
           color: color,
           
           
-          ),
+          ), 
       child: Text(
         buttonText,
         style: textButton.copyWith(color: kWhiteColor),

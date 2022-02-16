@@ -10,7 +10,7 @@ class Food_categorie_widget extends StatelessWidget {
     return Container( 
       width: 160,
       height: heigth,
-                    //margin: EdgeInsets.symmetric(horizontal: 20),
+                   
                     decoration: BoxDecoration(
                       color: Colors.white70,
                       borderRadius: BorderRadius.circular(10),
@@ -27,7 +27,7 @@ class Food_categorie_widget extends StatelessWidget {
                           SizedBox(width: 5,),
                         Image.asset(img,width: 45,height: 45,),
                         SizedBox(width: 15,),
-                        Text(description,style: TextStyle(fontSize: 15,//fontWeight: FontWeight.bold
+                        Text(description,style: TextStyle(fontSize: 15,
                         ),)
                       ],
                     ),

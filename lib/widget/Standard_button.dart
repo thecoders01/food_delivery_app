@@ -14,7 +14,7 @@ class StandartButton extends StatelessWidget {
       required this.function});
   @override
   Widget build(BuildContext context) {
-    var mediaQuery = MediaQuery.of(context).size;
+  
     return BouncingWidget(
   duration: Duration(milliseconds: 100),
   scaleFactor: 1.5,
@@ -27,7 +27,7 @@ class StandartButton extends StatelessWidget {
         decoration: BoxDecoration(
             color: backcolor,
             borderRadius: BorderRadius.circular(20),
-            //border: Border.all(color: bordercolor),
+           
             boxShadow: [
                           BoxShadow(
                             color: Colors.grey,

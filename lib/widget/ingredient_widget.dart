@@ -20,7 +20,7 @@ class Ingredient_items extends StatelessWidget {
           press();
         },
         child: Container(
-          // padding: EdgeInsets.all(defaultPadding * 0.75),.withOpacity(0.1)
+         
           height: 40,
           width: 40,
           decoration: BoxDecoration(
