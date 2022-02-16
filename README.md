@@ -10,11 +10,19 @@ A food delivery app build with flutter
 
 ## Home Page
 
+![alt text](assets/screenshots/homepage.png)
+
 ## Burger Page
+
+![alt text](assets/screenshots/burgerpage.png)
 
 ## Food Page
 
+![alt text](assets/screenshots/foodview.png)
+
 ## Cart Page
+
+![alt text](assets/screenshots/cart.png)
 
 ## Links
 
