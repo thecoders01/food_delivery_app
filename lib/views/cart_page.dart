@@ -22,7 +22,7 @@ class _Cart_PageState extends State<Cart_Page> {
           width: MediaQuery.of(context).size.width,
           color: Colors.black,
           child: Column(children: [
-             SizedBox(height: 40,),
+           const  SizedBox(height: 40,),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -34,14 +34,14 @@ class _Cart_PageState extends State<Cart_Page> {
                       onTap: (){
                         Get.back();
                       },
-                      child: Icon(Iconsax.arrow_left,color: Colors.white,)),
+                      child: const Icon(Iconsax.arrow_left,color: Colors.white,)),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                const  Padding(
+                    padding:  EdgeInsets.all(8.0),
                     child: Text("Cart",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 23),),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                const  Padding(
+                    padding:  EdgeInsets.all(8.0),
                     child: Icon(Iconsax.close_square,color: Colors.white,),
                   ),
                 ],

@@ -6,6 +6,9 @@ import 'package:food_app/widget/Standard_button.dart';
 import 'package:food_app/widget/ingredient_widget.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+
+
+// ignore: camel_case_types
 class foodView extends StatefulWidget {
    final String name,subname,img;
    final int select;
@@ -15,6 +18,7 @@ class foodView extends StatefulWidget {
         required this.img,}) : super(key: key);
 
   @override
+  // ignore: no_logic_in_create_state
   _foodViewState createState() => _foodViewState(name:name,subname:subname,img:img,select:select );
 }
 
@@ -31,7 +35,7 @@ class _foodViewState extends State<foodView> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-              SizedBox(height: 40,),
+             const SizedBox(height: 40,),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -43,17 +47,17 @@ class _foodViewState extends State<foodView> {
                       onTap: (){
                         Get.back();
                       },
-                      child: Icon(Iconsax.arrow_left)),
+                      child:const Icon(Iconsax.arrow_left)),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+                const  Padding(
+                    padding:  EdgeInsets.all(8.0),
                     child: Icon(Iconsax.heart),
                   )
                 ],
               ),
             ),
 
-            SizedBox(height: 15,),
+          const  SizedBox(height: 15,),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
@@ -61,8 +65,8 @@ class _foodViewState extends State<foodView> {
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
                                     children: [
-        Text(name, style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
-                                 SizedBox(height: 6,),
+        Text(name, style:const TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold)),
+                                const SizedBox(height: 6,),
                                   Text(subname, style: TextStyle(color: Colors.grey.shade400, fontSize: 13, )),
        
                                   ],),

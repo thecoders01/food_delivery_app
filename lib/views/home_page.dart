@@ -21,7 +21,7 @@ class _HomepageState extends State<Homepage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 40,),
+            const SizedBox(height: 40,),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -33,11 +33,11 @@ class _HomepageState extends State<Homepage> {
                       onTap: (){
                         Get.back();
                       },
-                      child: Icon(Iconsax.menu)),
+                      child: const Icon(Iconsax.menu)),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Icon(Iconsax.search_normal),
+             const     Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child:  Icon( Iconsax.search_normal),
                   )
                 ],
               ),

@@ -3,6 +3,7 @@ import 'package:food_app/widget/Standard_button.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
+// ignore: camel_case_types
 class Burger_page extends StatefulWidget {
   const Burger_page({ Key? key }) : super(key: key);
 
@@ -10,6 +11,7 @@ class Burger_page extends StatefulWidget {
   _Burger_pageState createState() => _Burger_pageState();
 }
 
+// ignore: camel_case_types
 class _Burger_pageState extends State<Burger_page> {
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,7 @@ class _Burger_pageState extends State<Burger_page> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 40,),
+        const    SizedBox(height: 40,),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
@@ -29,10 +31,10 @@ class _Burger_pageState extends State<Burger_page> {
                       onTap: (){
                         Get.back();
                       },
-                      child: Icon(Iconsax.arrow_left)),
+                      child:const Icon(Iconsax.arrow_left)),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
+               const   Padding(
+                    padding:  EdgeInsets.all(8.0),
                     child: Icon(Iconsax.heart),
                   )
                 ],
@@ -41,7 +43,7 @@ class _Burger_pageState extends State<Burger_page> {
              Container(
                
                               height: MediaQuery.of(context).size.height/2,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                        
                   
                           image: DecorationImage(
